@@ -52,12 +52,14 @@ const MapboxGLMap = () => {
 
     if (!map) initializeMap({ setMap, mapContainer });
     setFirstRun(false)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map, style]);
 
   useEffect(() => {
     if (!firstrun) {
       map.setStyle(`mapbox://styles/mapbox/${style}`);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [style]);
 
   useEffect(() => {
@@ -65,6 +67,7 @@ const MapboxGLMap = () => {
       console.log("number: ", number)
       map.setCenter(number);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
   return (<div>
