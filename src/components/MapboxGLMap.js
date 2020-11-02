@@ -13,6 +13,7 @@ const MapboxGLMap = () => {
   const mapContainer = useRef(null);
   const [style, setStyle] = useState("streets-v11");
   const [firstrun, setFirstRun] = useState(true);
+  const [number, setNumber] = useState([10.408773, 89.422091]);
 
   const toggleStyle = () => {
     console.log(style)
@@ -39,7 +40,7 @@ const MapboxGLMap = () => {
       const map = new mapboxgl.Map({
         container: mapContainer.current,
         style: "mapbox://styles/mapbox/streets-v11", // stylesheet location
-        center: [10.408773, 63.422091],
+        center: number,
         zoom: 10
       });
 
@@ -59,8 +60,16 @@ const MapboxGLMap = () => {
     }
   }, [style]);
 
+  useEffect(() => {
+    if (!firstrun) {
+      console.log("number: ", number)
+      map.setCenter(number);
+    }
+  }, [number]);
+
   return (<div>
     <button onClick={() => toggleStyle()}>{style}</button>
+    <button onClick={() => setNumber([Math.random() * 90 * (Math.round(Math.random()) ? 1 : -1), Math.random() * 90 * (Math.round(Math.random()) ? 1 : -1)])}>Random location</button>
     <div ref={el => (mapContainer.current = el)} style={styles} />
   </div>)
 };
