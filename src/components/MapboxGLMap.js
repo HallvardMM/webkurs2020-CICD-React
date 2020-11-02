@@ -13,7 +13,7 @@ const MapboxGLMap = () => {
   const mapContainer = useRef(null);
   const [style, setStyle] = useState("streets-v11");
   const [firstrun, setFirstRun] = useState(true);
-  const [number, setNumber] = useState([59.91343248795347, 10.54769858498201]);
+  const [number, setNumber] = useState([10.5476, 59.9134]);
 
   const toggleStyle = () => {
     console.log(style)
@@ -66,6 +66,7 @@ const MapboxGLMap = () => {
     if (!firstrun) {
       console.log("number: ", number)
       map.setCenter(number);
+      map.setZoom(5);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
