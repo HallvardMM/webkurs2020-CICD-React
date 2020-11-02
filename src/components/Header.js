@@ -6,12 +6,12 @@ const styles = {
     padding: '10px',
     textAlign: 'center',
     fontSize: '30px',
-  };
+};
 
 const Header = () => {
     return (
         <div style={styles}>
-            <header>KART?</header>
+            <header>Ny header</header>
         </div>
     )
 }
