@@ -11,7 +11,7 @@ const styles = {
 const Header = () => {
     return (
         <div style={styles}>
-            <header>Ny header</header>
+            <header><b>Ny header some er i bold</b> </header>
         </div>
     )
 }
