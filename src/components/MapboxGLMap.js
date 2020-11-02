@@ -13,7 +13,7 @@ const MapboxGLMap = () => {
   const mapContainer = useRef(null);
   const [style, setStyle] = useState("streets-v11");
   const [firstrun, setFirstRun] = useState(true);
-  const [number, setNumber] = useState([10.408773, 89.422091]);
+  const [number, setNumber] = useState([59.91343248795347, 10.54769858498201]);
 
   const toggleStyle = () => {
     console.log(style)
