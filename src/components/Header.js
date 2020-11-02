@@ -11,7 +11,7 @@ const styles = {
 const Header = () => {
     return (
         <div style={styles}>
-            <header><b>Ny header some er i bold</b> </header>
+            <header><b>Test av ny header some er i bold</b> </header>
         </div>
     )
 }
