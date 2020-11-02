@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/HallvardMM/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css",
-    "main.js": "/HallvardMM/webkurs2020-CICD-React/static/js/main.f32bd63c.chunk.js",
-    "main.js.map": "/HallvardMM/webkurs2020-CICD-React/static/js/main.f32bd63c.chunk.js.map",
-    "runtime-main.js": "/HallvardMM/webkurs2020-CICD-React/static/js/runtime-main.5355de77.js",
-    "runtime-main.js.map": "/HallvardMM/webkurs2020-CICD-React/static/js/runtime-main.5355de77.js.map",
-    "static/css/2.0a5b19c0.chunk.css": "/HallvardMM/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css",
-    "static/js/2.16ab8709.chunk.js": "/HallvardMM/webkurs2020-CICD-React/static/js/2.16ab8709.chunk.js",
-    "static/js/2.16ab8709.chunk.js.map": "/HallvardMM/webkurs2020-CICD-React/static/js/2.16ab8709.chunk.js.map",
-    "index.html": "/HallvardMM/webkurs2020-CICD-React/index.html",
-    "precache-manifest.49d59567f4d40708f93db9e97bd5f492.js": "/HallvardMM/webkurs2020-CICD-React/precache-manifest.49d59567f4d40708f93db9e97bd5f492.js",
-    "service-worker.js": "/HallvardMM/webkurs2020-CICD-React/service-worker.js",
-    "static/css/2.0a5b19c0.chunk.css.map": "/HallvardMM/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css.map",
-    "static/css/main.69eda509.chunk.css.map": "/HallvardMM/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.16ab8709.chunk.js.LICENSE.txt": "/HallvardMM/webkurs2020-CICD-React/static/js/2.16ab8709.chunk.js.LICENSE.txt"
+    "main.css": "/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css",
+    "main.js": "/webkurs2020-CICD-React/static/js/main.e021fc86.chunk.js",
+    "main.js.map": "/webkurs2020-CICD-React/static/js/main.e021fc86.chunk.js.map",
+    "runtime-main.js": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js",
+    "runtime-main.js.map": "/webkurs2020-CICD-React/static/js/runtime-main.89e14c0b.js.map",
+    "static/css/2.0a5b19c0.chunk.css": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css",
+    "static/js/2.16ab8709.chunk.js": "/webkurs2020-CICD-React/static/js/2.16ab8709.chunk.js",
+    "static/js/2.16ab8709.chunk.js.map": "/webkurs2020-CICD-React/static/js/2.16ab8709.chunk.js.map",
+    "index.html": "/webkurs2020-CICD-React/index.html",
+    "precache-manifest.733180697de752c7b1cc3f35b7178d40.js": "/webkurs2020-CICD-React/precache-manifest.733180697de752c7b1cc3f35b7178d40.js",
+    "service-worker.js": "/webkurs2020-CICD-React/service-worker.js",
+    "static/css/2.0a5b19c0.chunk.css.map": "/webkurs2020-CICD-React/static/css/2.0a5b19c0.chunk.css.map",
+    "static/css/main.69eda509.chunk.css.map": "/webkurs2020-CICD-React/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.16ab8709.chunk.js.LICENSE.txt": "/webkurs2020-CICD-React/static/js/2.16ab8709.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.5355de77.js",
+    "static/js/runtime-main.89e14c0b.js",
     "static/css/2.0a5b19c0.chunk.css",
     "static/js/2.16ab8709.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.f32bd63c.chunk.js"
+    "static/js/main.e021fc86.chunk.js"
   ]
 }
